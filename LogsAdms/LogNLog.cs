@@ -8,7 +8,7 @@ namespace LogsAdms
 {
     public class LogNLog : ILog
     {
-        private static ILogger logger = LogManager.GetCurrentClassLogger();
+        private static readonly ILogger logger = LogManager.GetLogger("logger");
 
         public LogNLog()
         {
