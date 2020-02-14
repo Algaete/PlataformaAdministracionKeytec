@@ -1,1 +1,4 @@
 2020-02-14 16:34:19.9862 INFO Nlog funcionando
+2020-02-14 17:18:18.9358 INFO Nlog funcionando
+2020-02-14 17:18:18.9358 INFO Nlog funcionando
+2020-02-14 17:18:20.6271 ERROR Error al conectar al servidor FTPAn exception occurred during a WebClient request.

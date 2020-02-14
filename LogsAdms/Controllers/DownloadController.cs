@@ -70,6 +70,18 @@ namespace LogsAdms.Controllers
                             string path = FtpServer + directories[i].ToString();
                             string trnsfrpth = localpath + directories[i].ToString();
                             ftpClient.DownloadFile(path, trnsfrpth);
+                            if (!string.IsNullOrEmpty(trnsfrpth))
+                            {
+                                StreamReader sr = new StreamReader(trnsfrpth);
+                                //string contenido = sr.ReadToEnd();
+                                string contenidoErrores = sr.ReadLine();
+                                while(!string.IsNullOrEmpty(contenidoErrores))
+                                {
+
+                                }
+                                sr.Close();
+                                return contenidoErrores;
+                            }
                             return returnValue;
                         }
                     }
