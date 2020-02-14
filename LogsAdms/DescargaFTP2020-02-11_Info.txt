@@ -1,0 +1,2 @@
+2020-02-11 17:43:50.3896 INFO Information is logged
+2020-02-11 17:48:17.6529 INFO Information is logged
